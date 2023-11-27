@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title></title>
+  <style>
+  body{
+  background-color:black;
+  }
+  p {
+color:blue;
+}
+  </style>
+</head>
+<body>
+
+  <p>Il difensore dell'Inter Federico Dimarco ha giocato la maggior parte delle partite della sua squadra in Serie A nel 2023/2024, avendo collezionato 11 presenze, per un totale di 768 minuti. É stato scelto nell'11 iniziale in tutte le 11 presenze, su 12 giornate.</p>
+<img src="dimarco.jpg">
+</body>
+</html>
