@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title></title>
+  <style>
+  p{
+  text-align:center; 
+  color:blue;
+  }
+  h1{
+  color:white;
+  text-align:center; 
+   font-size: 60px;
+}
+h2{
+  color:white;
+  text-align:center; 
+  font-size:60px;
+}
+
+  body{
+  background-color:black;
+  }
+  #img{
+  width:300px;
+  height:300px;
+   padding-right: 50%;
+   margin:50px;
+  
+  
+ }
+ #img2{
+  width:300px;
+  height:300px;
+  margin:30px;
+ 
+  
+ }
+ .elenco {
+ color:white;
+ }
+ ul li{
+ color:white;
+ text-decoration: none; 
+ }
+ a {
+ color:white;
+ text-decoration: none; 
+ }
+ h3{
+  color:white;
+  margin:10px;
+
+ }
+
+ table {
+      border: 2px solid blue; 
+      color:white;
+       width:100%;
+    }
+
+    th, td {
+      border: 1px solid blue;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: blue;
+      color: white; 
+    }
+    button{
+         background-color:blue;
+         border: none;
+         padding: 10px 30px;
+         border-radius: 20px;
+         box-sizing: 10px;
+         font-weight: bold;
+         color: white; 
+         margin: 0;
+          position: absolute;
+           left: 47%;
+         
+   }
+  </style>
+</head>
+<body>
+<h1>Inter</h1>
+<h2>Football Club Internazionale Milano</h2>
+
+  <p> <i>Il Football Club Internazionale Milano, meglio conosciuto come Internazionale o più semplicemente come Inter, è una società calcistica italiana con sede nella città di Milano.
+
+Fondato il 9 marzo 1908 da un gruppo di soci dissidenti del Milan, il club ha sempre militato nella massima serie del campionato nazionale a partire dalla propria prima partita ufficiale, nel 1909, ed è l'unico ad aver partecipato a tutte le edizioni della Serie A, istituita nella stagione 1929-30. Fin dalla fondazione, indossa una divisa a strisce verticali nerazzurre, a parte una breve parentesi nel 1928 quando adottò una maglia bianca rossocrociata.
+
+Nel suo palmarès annovera 35 titoli nazionali – 19 scudetti, 9 Coppe Italia e 7 Supercoppe italiane – che ne fanno il secondo club più titolato alle spalle della Juventus (59). A livello internazionale vanta invece 3 Coppe dei Campioni/Champions League, 3 Coppe UEFA, 2 Coppe Intercontinentali e una Coppa del mondo per club FIFA, per un totale di 9 trofei ufficiali che pongono l'Inter dietro il Milan  e la Juventus  nella classifica dei club italiani per numero di vittorie in competizioni internazionali. Nel 1965 è diventata la prima squadra europea a vincere il campionato, la Coppa dei Campioni e la Coppa Intercontinentale nello stesso anno, detenendo quindi contemporaneamente i titoli di campione nazionale, continentale e mondiale. Il traguardo è stato bissato nel 2010, quando è diventata anche la prima e unica squadra italiana ad essersi aggiudicata le tre competizioni principali disputate nel corso della stagione: la Champions League, il campionato e la Coppa Italia;coi successivi trionfi in Supercoppa italiana e Coppa del mondo per club FIFA è diventata anche la prima e, finora, unica squadra del Paese a vincere cinque trofei nell'arco di un anno solare.
+
+Alcuni dei suoi calciatori sono stati premiati durante la militanza nel club con i massimi riconoscimenti individuali, come il Pallone d'oro e il FIFA World Player; inoltre, il club ha fornito un contributo rilevante ai successi della nazionale italiana. La squadra può contare su un sostegno numeroso sia a livello nazionale che internazionale. Nel 1998 e nel 2010 l'Inter fu nominata Squadra mondiale dell'anno dall'IFFHS; nel 2009 si piazzò al sesto posto nella lista secolare sui migliori club europei redatta dalla stessa federazione di storia e statistica, e nel 2011 al quinto posto (prima italiana) nella classifica europea delle migliori squadre del decennio 2001-2010.  </p>
+
+<img id ="img" src="download.jfif" alt="inter">
+<img id ="img2" src="img.jpg" alt="inter">
+<h3>allenatore:Simone inzaghi</h3>
+<ul class="elenco">
+<a href="http://paridemaggi1.altervista.org/esercitzione%20preverifica/Lautaro%20Martinez.html">
+<li>attaccante 10 Lautaro Martínez </li>
+</a>
+<a href="http://paridemaggi1.altervista.org/esercitzione%20preverifica/Alexis%20Snchez.html">
+<li>attaccante 70 Alexis Sánchez </li>
+</a>
+<a href="http://paridemaggi1.altervista.org/esercitzione%20preverifica/Federico%20Dimarco.html">
+<li>difensore 2 Federico Dimarco </li>
+</a>
+</ul>
+<h2>Best 5 giocatori</h2>
+<table>
+    <tr>
+      <th>Nome</th>
+      <th>Cognome</th>
+      <th>Gol</th>
+    </tr>
+    <tr>
+      <td>Mauro</td>
+      <td>Icardi</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Romelu</td>
+      <td>Lukaku</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Lautaro</td>
+      <td>Martinez</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Alexis</td>
+      <td>Sanchez</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Christian</td>
+      <td>Eriksen</td>
+      <td>10</td>
+    </tr>
+  </table>
+</body>
+<p> Vuoi sapere le partite della squadra del tuo cuore schiaccia qui!!!</p>
+<a href="http://paridemaggi1.altervista.org/esercitzione%20preverifica/partite.html">
+    <button>Cliccami!!</button>
+  </a>
+</html>
