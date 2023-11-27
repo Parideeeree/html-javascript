@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="AlterVista - Editor HTML"/>
+  <title></title>
+  <style>
+  body{
+  background-color:black;
+  }
+  p {
+color:blue;
+}
+  </style>
+</head>
+<body>
+
+  <p>109 presenze, 20 gol fatti e 3 trofei vinti in nerazzurro. Alexis Alejandro Sánchez nell'estate 2023 è tornato a vestire la maglia dell'Inter.
+</p>
+<img src="sanchez.webp">
+</body>
+</html>
