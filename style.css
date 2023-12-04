@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    text-align: center;
+}
+p{
+
+    text-align: center;
+    color: rgb(172, 199, 172);
+    font-size: 15px;
+    position: relative;
+    margin-top: 10px;
+}
+img{
+    position: relative;
+    left: 475px;
+    width: 300px;
+    height: 400px;
+}
+.desription{
+
+    background-color: rgb(56, 49, 49);
+    border-radius: 10px;
+height: max-content;    
+}
