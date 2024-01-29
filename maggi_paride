@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<! --1 -->
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maggi Paride</title>
+   <link rel="stylesheet" href="http://paridemaggi1.altervista.org/verificarecupero/main.css">
+   <link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
+</head>
+<body>
+    
+
+    <h1>Invidia</h1>
+    <! --2 -->
+    <div class="descripction">
+    <h2 id="testo">le schede video Invidia</h2>
+    <p id="demo">Fai un upgrade definitivo. Regalati prestazioni e <span>funzionalità senza pari con le schede grafiche,</span>  i laptop, i desktop   <a href="https://www.nvidia.com/it-it/geforce/graphics-cards/40-series/?nvid=nv-int-pastpbnr-509669" target="_blank">GeForce RTX™ Serie 40</a>G e i monitor G-SYNC® progettati per trasformare ogni esperienza. Grazie all'intelligenza artificiale potrai giocare, creare e aumentare la produttività come mai prima d'ora.</p>
+     <a href="https://www.nvidia.com/it-it/" target="_blank"><img  src="https://hd2.tudocdn.net/849056?w=824&h=494" alt="logo"> </a>
+    </div>
+   
+    <! --4-->
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/Gch6bX1toB0?si=te8zsQg9FYxTBVdB&amp;controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+     <script>
+        function myFunction(){
+          document.getElementById("demo").style.fontSize = "25px"; 
+          document.getElementById("demo").style.color = "blue";
+          document.getElementById("demo").style.backgroundColor = "black";  
+          document.getElementById("testo").style.fontSize = "40px"; 
+          document.getElementById("testo").style.color = "red";
+          document.getElementById("testo").style.backgroundColor = "yellow"; 
+        }
+        </script>
+        
+        
+        <button type="button" onclick="myFunction()">Schiaccia!</button>
+
+        <img src="https://i.ytimg.com/vi/bRWzxYqsesY/sddefault.jpg" alt="Workplace" usemap="#workmap">
+        <map name="workmap">
+        <area shape="rect" coords="2,1,318,321,3" alt="mattino" href="https://www.amazon.it/rtx-3060/s?k=rtx+3060 target="_black">
+        <area shape="rect" coords="323,639,636,324,340,327,323"alt="sera" href="https://www.amazon.it/Gigabyte-NVIDIA-GeForce-Scheda-grafica/dp/B0C8ZRMDC3/ref=asc_df_B0C8ZRMDC3/?tag=googshopit-21&linkCode=df0&hvadid=655771342714&hvpos=&hvnetw=g&hvrand=1659485814441146061&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9053433&hvtargid=pla-2196281970156&psc=1&mcid=cdcd8af1d0d835bc8ec2f2431b051952"   target="_black">
+        </map>
+
+        <div class="second_descripction">
+
+            <h2 >1080ti</h2>
+
+            <p>La scheda GeForce GTX 1080 Ti di NVIDIA è stata introdotta sul mercato nel 2017; è dotata di una GPU GP102 composta da un totale di 11,8 miliardi di transistor ed è basata su architettura Pascal. La GPU ospita al proprio interno un totale di 3584 CUDA core, abbinati a 224 TMU e 88 ROPs.</p>
+
+        </div>
+       
+        <! --3-->
+        <div>
+            <table >
+                <tr>
+                  <th>RTX™ 3070</th>
+                  <th>RTX™ 3060</th>
+                  <th>RTX™ 4080</th>
+                  
+                </tr>
+                <tr>
+                  <td>good</td>
+                  <td><ol type="1">
+                    <li>good</li>
+                   <li>nice</li>
+                   <li>letgo</li>
+                   <li>Php</li>
+                   </ol></td>
+                  <td>bad</td>
+                  
+                
+                </tr>
+                <tr>
+                    <td>good</td>
+                    <td>good</td>
+                    <td>bad</td>
+                    
+                  
+                  </tr>
+                  <tr>
+                    <td>
+                        <ul>
+                        <li>good</li>
+                        <ul>
+                            <li>SO good</li>
+                            <li>SO SO GOOD</li>
+                        </ul>
+                    </td>
+                    <td>good</td>
+                    <td>bad</td>
+                    
+                  
+                  </tr>
+              </table>
+        
+              
+             </div>
+        
+        
+</body>
+</html>
