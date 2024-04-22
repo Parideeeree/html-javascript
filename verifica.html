@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        .btn{
+            background:none;
+            border-radius: 30px;
+            color: rgb(0, 153, 255);
+            margin-bottom: 2% ;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <!--NAVBAR START-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a style="color: white;" class="navbar-brand" href="#">Challenger (1)</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a style="color: white;" class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a style="color: white;" class="nav-link" href="#">Document bootstrap</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <button type="button" class="btn btn-primary">AREA MEMBRI</button>
+          </span>
+        </div>
+      </nav>
+      <!--End navbar-->
+      <!--Start jumbotran-->
+      <div class="jumbotron ">
+        <h1 style="text-align: center;" class="display-4">Challenger (2)</h1>
+        <p style="text-align: center;" class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, magni ipsa! Atque voluptatibus ea nisi laboriosam possimus tenetur animi error inventore odit quas quaerat, excepturi, nostrum ab in doloribus illum.</p>
+        <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Verifica</a></p>
+          <hr style="margin-left: 2%; margin-right: 2%;" class="my-2">
+        
+      
+      </div>
+      <!--end of jumbo-->
+      <!--start card-->
+      <div class="card-deck">
+        <div class="card">
+          <img src="https://www.paoline.it/images/news/img/823d7f7cd8e199f1a5c37ae82ff6053d.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="text-align: center;" class="card-title">Aquila</h5>
+            <p style="text-align: center;" class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Scopri di più</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="text-align: center;" class="card-title">Leone</h5>
+            <p style="text-align: center;" class="card-text ">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Scopri di più</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://www.wwf.it/uploads/Original_WW256467-scaled.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 style="text-align: center;" class="card-title">Gandhi</h5>
+            <p style="text-align: center;" class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Scopri di più</a></p>
+          </div>
+        </div>
+      </div>
+      <!--end card-->
+      <hr style=" margin-top: 2%; margin-left: 2%; margin-right: 2%;" class="my-2">
+      <!--start grid-->
+      <div class="container px-lg-5">
+        <div class="row mx-lg-n5">
+          <div class="col py-3 px-lg-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ad aspernatur magni doloribus labore consectetur atque velit, possimus recusandae molestiae quisquam. Doloremque distinctio corporis quisquam qui voluptatibus rerum, tempore natus.</div>
+          <div class="col py-3 px-lg-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde odit quidem at alias cumque beatae id, veniam ipsum sed doloremque, tenetur consequuntur, accusamus earum molestiae nostrum esse magnam dolore minima.</div>
+        </div>
+      </div>
+
+      <!--end grid-->
+      <!--start Featured-->
+      <div class="container">
+        <div class="row ">
+            <div class="card col-sm-4 " style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+    
+                </ul>
+              </div>
+              
+                <div class="card col-sm-4 " style="width: 18rem;">
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      
+                    </ul>
+                  </div>
+                    <div class="card col-sm-4 " style="width: 18rem;">
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          
+                        </ul>
+                      </div>
+      </div>
+
+      <!--Card-->
+      <div class="container">
+        <div class="row mt-3">
+        <div class="card col-5 col-sm-4 col-md-3">
+            <div class="text-center fs-3">(header)</div>
+            <div class="car-body text-center">
+            <div class="car-title">
+                <h5 class="card-title">Titolo</h5>
+                <p class="card-text">testo...</p>
+                <a class="btn btn-primary" href="">Mostra profilo</a>
+            </div>
+        </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-3">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-3">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-3">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-4">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-3">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-3">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <div class="card col-5 col-sm-4 col-md-3">
+      <div class=" text-center fs-3">(header)</div>
+      <div class="car-body text-center">
+      <div class="car-title">
+          <h5 class="card-title">Titolo</h5>
+          <p class="card-text">testo...</p>
+          <a class="btn btn-primary" href="">Mostra profilo</a>
+      </div>
+    </div>
+    </div>
+    <!--Categorie-->
+    <div style="margin-top: 2%;" class="container ">
+        <div class="row">
+          <div class="col-sm">
+            <h4>Categorie(7)</h4>
+            <div class="card" style="width: 18rem;">
+                <ul class="list-group list-group-flush">
+    
+                  <li class="list-group-item">An item</li>
+                  <li class="list-group-item">A second item</li>
+                  <li class="list-group-item">A third item</li>
+                </ul>
+              </div>
+          </div>
+          <div   class="col-sm">
+            <h4>Ultimi articoli</h4>
+            <div  class="card w-90">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                 <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Scopri di più
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <h4>Articoli popolari</h4>
+            <div class="card w-50">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Button</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      
+
+      <!--carousel-->
+
+      <div  id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.wwf.it/uploads/Original_WW256467-scaled.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.wwf.it/uploads/Original_WW256467-scaled.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.wwf.it/uploads/Original_WW256467-scaled.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+
+     
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
